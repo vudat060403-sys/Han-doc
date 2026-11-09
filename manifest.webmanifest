@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "Hán Đọc — Luyện đọc HSK3",
+  "short_name": "Hán Đọc",
+  "description": "Mỗi ngày một bài đọc tiếng Trung HSK3, có pinyin, nghe giọng đọc và câu hỏi hiểu bài.",
+  "lang": "vi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8f7f2",
+  "theme_color": "#f8f7f2",
+  "icons": [
+    {"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

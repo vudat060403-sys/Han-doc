@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f6f0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Hán Đọc">
+  <meta name="description" content="Luyện đọc tiếng Trung HSK3 mỗi ngày. Bài đọc, phát âm, pinyin, từ vựng và kiểm tra đọc hiểu.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/png" href="./assets/icon-192.png">
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+  <title>Hán Đọc · Luyện đọc tiếng Trung HSK3</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="site-header" id="site-header">
+      <button class="brand" data-action="nav" data-tab="home" aria-label="Về trang chủ">
+        <span class="brand-mark">读<span></span></span>
+        <span class="brand-text"><strong>HÁN ĐỌC</strong><small>每天读一点</small></span>
+      </button>
+      <div class="header-right"><span class="level-pill">HSK 3</span><button class="icon-button quiet" data-action="help" aria-label="Hướng dẫn cài đặt"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M9.7 9a2.5 2.5 0 1 1 3.95 2.1c-1.2.88-1.65 1.3-1.65 2.9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="17.4" r="1" fill="currentColor"/></svg></button></div>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <nav id="bottom-nav" class="bottom-nav" aria-label="Điều hướng chính"></nav>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </div>
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
